@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* Dark Theme Color System (Default) */
   --bg-primary: #0a0c16;
@@ -280,11 +284,6 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes pulseGlow {
   0%, 100% { opacity: 0.4; }
   50% { opacity: 0.9; }
-}
-
-@keyframes scanline {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(1000%); }
 }
 
 .animate-float {
